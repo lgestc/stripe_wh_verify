@@ -1,0 +1,17 @@
+[package]
+name = "stripe_wh_verify"
+version = "0.1.0"
+authors = ["lgmys <lgmys@pm.me>"]
+edition = "2018"
+homepage = "https://github.com/lgmys/stripe_wh_verify"
+repository = "https://github.com/lgmys/stripe_wh_verify"
+readme = "readme.md"
+keywords = ["Stripe", "webhook", "verification"]
+license = "MIT"
+description = "Easy, standalone verification for your Stripe Webhooks payloads"
+
+[dependencies]
+sha2 = "0.9.1"
+hmac = "0.9.0"
+hex = "0.4"
+constant_time_eq = "0.1.5"
